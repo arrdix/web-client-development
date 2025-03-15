@@ -14,8 +14,10 @@ function celciusConverter(value: number) {
 console.log('Konversi celcius: ', celciusConverter(68))
 ```
 
-Parameter: value dengan tipe number.
-Logika: Suhu Fahrenheit dikonversi ke Celsius menggunakan rumus: `(value - 32) * 5 / 9`
+Parameter: value dengan tipe number. 
+
+Logika: Suhu Fahrenheit dikonversi ke Celsius menggunakan rumus: `(value - 32) * 5 / 9` 
+
 Output: Mengembalikan suhu dalam Celsius.
 
 ## No 2
@@ -32,9 +34,11 @@ console.log('Konversi km ke cm :', lengthConverter(1))
 ```
 
 Parameter: value dengan tipe number.
+
 Logika:
--- Jika value ≥ 100000, dianggap dalam sentimeter dan dikonversi ke kilometer dengan membagi 100000.
--- Jika kurang dari 100000, dianggap dalam kilometer dan dikonversi ke sentimeter dengan mengalikan 100000.
+- Jika value ≥ 100000, dianggap dalam sentimeter dan dikonversi ke kilometer dengan membagi 100000.
+- Jika kurang dari 100000, dianggap dalam kilometer dan dikonversi ke sentimeter dengan mengalikan 100000.
+
 Output: Mengembalikan hasil konversi.
 
 ## No 3
@@ -51,7 +55,9 @@ console.log('Angka Genap', isOdd(2))
 ```
 
 Parameter: value dengan tipe number.
+
 Logika: value % 2 menghitung sisa bagi value dengan 2. Jika hasilnya bukan, maka bilangan tersebut ganjil.
+
 Output: Mengembalikan true jika bilangan ganjil, dan false jika bilangan genap.
 
 ## No 4
@@ -68,11 +74,14 @@ console.log('Hapus string: ', stringRemover('Hello world!', 'ell'))
 ```
 
 Parameter:
--- str dengan tipe string sebagai string utama yang akan dimodifikasi.
--- targetStr dengan tipe string sebagai string yang ingin dihapus dari string utama.
+
+- str dengan tipe string sebagai string utama yang akan dimodifikasi.
+- targetStr dengan tipe string sebagai string yang ingin dihapus dari string utama.
+
 Logika:
--- `str.split(targetStr)` membagi string utama menjadi array berdasarkan kemunculan targetStr.
--- `parts.join('')` menggabungkan kembali array menjadi string tanpa targetStr.
+- `str.split(targetStr)` membagi string utama menjadi array berdasarkan kemunculan targetStr.
+- `parts.join('')` menggabungkan kembali array menjadi string tanpa targetStr.
+
 Output: Mengembalikan string baru setelah targetStr dihapus dari str.
 
 ## No 5
@@ -90,11 +99,13 @@ console.log('String bukan palindrom: ', isPalindrom('madma'))
 ```
 
 Parameter: str bertipe string.
+
 Logika:
--- `.split('')` membagi string menjadi array karakter.
--- `.reverse()` membalik urutan karakter dalam array.
--- `.join('')` menggabungkan kembali karakter menjadi string.
--- Membandingkan string asli dengan string yang dibalik. Jika sama, string tersebut adalah palindrom.
+- `.split('')` membagi string menjadi array karakter.
+- `.reverse()` membalik urutan karakter dalam array.
+- `.join('')` menggabungkan kembali karakter menjadi string.
+- Membandingkan string asli dengan string yang dibalik. Jika sama, string tersebut adalah palindrom.
+
 Output: Mengembalikan true jika string adalah palindrom, dan false jika tidak.
 
 ## Usage
